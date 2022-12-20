@@ -1,0 +1,24 @@
+header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(76, 62, 165);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+}
+
+header nav a {
+    text-decoration: none;
+    color: rgb(203, 203, 203);
+}
+
+.active-class {
+    color: white;
+}
